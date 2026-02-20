@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construcciones SR</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+header{
+    background:#111;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+header img{
+    width:80px;
+    display:block;
+    margin:0 auto 10px;
+}
+header h1{
+    margin:0;
+    font-size:28px;
+}
+nav{
+    background:#222;
+    padding:10px;
+    text-align:center;
+}
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.hero{
+    background:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1350&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+.hero h2{
+    font-size:34px;
+}
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+.card{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+.gallery img{
+    width:300px;
+    border-radius:10px;
+}
+.contact{
+    background:#111;
+    color:white;
+    padding:40px 20px;
+}
+iframe{
+    width:100%;
+    height:300px;
+    border:0;
+    border-radius:10px;
+}
+footer{
+    background:#000;
+    color:#aaa;
+    text-align:center;
+    padding:10px;
+    font-size:12px;
+}
+.btn{
+    background:#e63946;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="logo">
+    <h1>CONSTRUCCIONES SR</h1>
+    <p>Calidad, compromiso y confianza</p>
+</header>
+
+<nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#trabajos">Trabajos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h2>Construimos confianza, calidad y resultados que perduran</h2>
+    <p>Transformamos tus ideas en espacios seguros, funcionales y duraderos</p>
+    <a class="btn" href="https://wa.me/52TU_NUMERO">Cotizar por WhatsApp</a>
+    <br>
+    <a class="btn" href="tel:351TU_NUMERO">Llamar ahora</a>
+</section>
+
+<section id="nosotros" class="section">
+    <h2>Quiénes somos</h2>
+    <p>
+        En Construcciones SR somos especialistas en el desarrollo, ejecución y mantenimiento de proyectos de construcción integral.
+        Nos dedicamos a transformar ideas en espacios funcionales, seguros y estéticamente sólidos, abarcando desde la edificación de viviendas hasta remodelaciones, instalaciones y mantenimiento general.
+    </p>
+    <p>
+        Nos distinguimos por nuestro compromiso, cumplimiento en tiempos de entrega, uso de materiales de calidad y atención personalizada.
+        Nuestro objetivo es brindar confianza y seguridad en cada obra que realizamos.
+    </p>
+</section>
+
+<section id="servicios" class="section">
+    <h2>Servicios</h2>
+    <div class="services">
+
+        <div class="card">
+            <h3>Construcción</h3>
+            <p>Levantamiento de casas, bardas, cuartos y estructuras completas desde cimentación hasta acabados.</p>
+        </div>
+
+        <div class="card">
+            <h3>Remodelaciones</h3>
+            <p>Renovación y modernización de espacios interiores y exteriores, ampliaciones y mejoras estructurales.</p>
+        </div>
+
+        <div class="card">
+            <h3>Plomería</h3>
+            <p>Instalaciones hidráulicas, reparación de fugas, drenaje, tinacos, cisternas y mantenimiento general.</p>
+        </div>
+
+        <div class="card">
+            <h3>Electricidad</h3>
+            <p>Instalaciones eléctricas residenciales, cableado, centros de carga, iluminación y mantenimiento.</p>
+        </div>
+
+        <div class="card">
+            <h3>Jardinería</h3>
+            <p>Diseño, mantenimiento y rehabilitación de áreas verdes, poda y decoración de exteriores.</p>
+        </div>
+
+        <div class="card">
+            <h3>Mantenimiento</h3>
+            <p>Pintura, impermeabilización, reparaciones generales y mejoras para hogar o negocio.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="trabajos" class="section">
+    <h2>Trabajos Realizados</h2>
+    <p>Algunos de nuestros proyectos más recientes</p>
+
+    <div class="gallery">
+        <img src="trabajo1.jpg">
+        <img src="trabajo2.jpg">
+        <img src="trabajo3.jpg">
+    </div>
+</section>
+
+<section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <p>📞 Teléfono: 351 TU NUMERO</p>
+    <p>📍 Ixtlán de los Hervores, Michoacán</p>
+
+    <iframe src="https://www.google.com/maps?q=Ixtlán+de+los+Hervores,+Michoacán&output=embed"></iframe>
+
+    <a class="btn" href="https://wa.me/52TU_NUMERO">Enviar WhatsApp</a>
+</section>
+
+<footer>
+    © 2026 Construcciones SR - Todos los derechos reservados
+</footer>
+
+</body>
+  </html>
